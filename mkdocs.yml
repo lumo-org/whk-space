@@ -47,4 +47,4 @@ markdown_extensions:
 
 extra_javascript:
   - javascripts/mathjax.js
-  - https://mirrors.sustech.edu.cn/cdnjs/ajax/libs/mathjax/4.0.0-beta.7/tex-chtml.min.js
+  - https://mirrors.sustech.edu.cn/cdnjs/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.min.js
