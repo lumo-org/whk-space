@@ -1,0 +1,51 @@
+name: Deploy Site
+
+on:
+  # Runs on pushes targeting the default branch
+  push:
+    branches: [ "main" ]
+
+  # Allows us to run this workflow manually from the Actions tab.
+  workflow_dispatch:
+
+jobs:
+  # Build site.
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    # See: https://github.com/actions/checkout.
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+        submodules: false
+
+    - name: Install Nix
+      uses: cachix/install-nix-action@v27
+      with:
+        nix_path: nixpkgs=channel:nixos-24.11
+
+    - name: Build site
+      run: nix develop --command bash -c "mkdocs build"
+
+    - name: Upload Pages artifact
+      uses: actions/upload-pages-artifact@v3
+      with:
+        path: ./site
+
+  # Deploy site to GitHub Pages.
+  deploy:
+    needs: build
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    # Specify runner + deployment step
+    runs-on: ubuntu-latest
+    steps:
+    - name: Deploy to GitHub Pages
+      id: deployment
+      uses: actions/deploy-pages@v4
