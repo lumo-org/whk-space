@@ -1,5 +1,12 @@
 site_name: whk-space
 site_url: https://lumo-org.github.io/whk-space
+
+nav:
+  - index.md
+  - Section 1:
+    - section1/index.md
+    - Page 1: section1/page-1.md
+
 theme:
   name: material
   # i18n.
@@ -28,6 +35,11 @@ theme:
   # Site logo.
   icon:
     logo: material/draw-pen
+  # Features.
+  features:
+    # This feature flag is not compatible with toc.integrate, 
+    # as sections cannot host the table of contents due to missing space.
+    - navigation.indexes 
 
 markdown_extensions:
   - pymdownx.arithmatex:
