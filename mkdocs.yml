@@ -3,6 +3,8 @@ site_url: https://lumo-org.github.io/whk-space
 
 nav:
   - index.md
+  - 数列
+    - 等差数列重要公式: sequence/AP-formula.md
   - Section 1:
     - section1/index.md
     - Page 1: section1/page-1.md
