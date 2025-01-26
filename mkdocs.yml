@@ -2,3 +2,37 @@ site_name: whk-space
 site_url: https://lumo-org.github.io/whk-space
 theme:
   name: material
+  # i18n.
+  language: zh
+  # Color palette.
+  palette:
+    # Palette toggle for light mode.
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: white
+      toggle:
+        icon: material/lightbulb
+        name: 切换到深色模式.
+
+    # Palette toggle for dark mode.
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: black
+      toggle:
+        icon: material/lightbulb-outline
+        name: 切换到浅色模式.
+  # Font configuration (Google Fonts).
+  font:
+    text: Roboto
+    code: Roboto Mono
+  # Site logo.
+  icon:
+    logo: material/draw-pen
+
+markdown_extensions:
+  - pymdownx.arithmatex:
+      generic: true
+
+extra_javascript:
+  - javascripts/mathjax.js
+  - https://mirrors.sustech.edu.cn/cdnjs/ajax/libs/mathjax/4.0.0-beta.7/tex-chtml.min.js
