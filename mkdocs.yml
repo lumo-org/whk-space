@@ -1,6 +1,11 @@
 site_name: whk-space
 site_url: https://lumo-org.github.io/whk-space
 
+# Repository
+repo_name: 'lumo-org/whk-space'
+repo_url: 'https://github.com/lumo-org/whk-space'
+
+# Contents
 nav:
   - index.md
   - 数列:
@@ -9,6 +14,7 @@ nav:
     - section1/index.md
     - Page 1: section1/page-1.md
 
+# Theme
 theme:
   name: material
   # i18n.
