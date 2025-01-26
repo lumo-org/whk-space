@@ -1,13 +1,11 @@
-# Welcome to MkDocs
+# Welcome to whk-space
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+For full information visit [lumo-org.github.io](https://lumo-org.github.io).
 
-## Commands
+## Why we set up this site?
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+* 我们希望能够在这里积攒一些零碎但可能会有用的知识;
+* 如果你也希望参与贡献, 欢迎为这个仓库提交 Pull Request.
 
 ## Project layout
 
@@ -15,7 +13,3 @@ For full documentation visit [mkdocs.org](https://www.mkdocs.org).
     docs/
         index.md  # The documentation homepage.
         ...       # Other markdown pages, images and other files.
-
-$$
-\int xdx
-$$
