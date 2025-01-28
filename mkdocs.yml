@@ -60,7 +60,11 @@ plugins:
   - git-authors:
       show_contribution: true
 
+# Extensions
 markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
   - pymdownx.arithmatex:
       generic: true
 
