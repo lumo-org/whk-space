@@ -1,3 +1,7 @@
+---
+comments: false
+---
+
 # Welcome to whk-space
 
 For full information visit [lumo-org.github.io](https://lumo-org.github.io).
