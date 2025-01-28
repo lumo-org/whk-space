@@ -60,6 +60,8 @@ theme:
     # as sections cannot host the table of contents due to missing space.
     - navigation.indexes
     - navigation.tabs
+# Comment
+custom_dir: docs/overrides
 
 # Plugins.
 plugins:
