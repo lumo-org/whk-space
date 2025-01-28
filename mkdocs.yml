@@ -1,11 +1,11 @@
 site_name: whk-space
 site_url: https://lumo-org.github.io/whk-space
 
-# Repository
+# Repository.
 repo_name: lumo-org/whk-space
 repo_url: https://github.com/lumo-org/whk-space
 
-# Contents
+# Contents.
 nav:
   - README:
     - README.md
@@ -14,7 +14,7 @@ nav:
     - 等差数列重要公式: sequence/AP-formula.md
   - Main Site: https://lumo-org.github.io/
 
-# Theme
+# Theme.
 theme:
   name: material
   # i18n.
