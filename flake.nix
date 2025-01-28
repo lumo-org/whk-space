@@ -18,6 +18,7 @@
             (pkgs.python3.withPackages (ps: [
               ps.mkdocs
               ps.mkdocs-material
+              ps.mkdocs-git-authors-plugin
             ]))
           ];
         };

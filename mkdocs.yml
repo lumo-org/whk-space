@@ -49,6 +49,12 @@ theme:
     # as sections cannot host the table of contents due to missing space.
     - navigation.indexes 
 
+# Plugins.
+plugins:
+  - search
+  - git-authors:
+      show_contribution: true
+
 markdown_extensions:
   - pymdownx.arithmatex:
       generic: true
