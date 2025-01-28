@@ -17,7 +17,8 @@ nav:
   - 微分:
     - differential/index.md
   - 扩展:
-    - 奇技淫巧
+    - 扩展部分简介: extended/index.md
+    - 奇技淫巧:
       - 矩阵行列式瞬秒立体图形体积计算: extended/tricks/determinant-and-volume.md
       - 路径组合计数问题的线性递推解法: extended/tricks/dp-in-math-combination.md
       - 面向高中生の洛必达法则简述: extended/tricks/l-hopital-rule-introduction.md

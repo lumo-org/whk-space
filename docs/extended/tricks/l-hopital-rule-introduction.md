@@ -1,7 +1,7 @@
 !!! Note 
     本文原作者：[JustPureH2O](https://justpureh2o.cn/about/)
     
-    原文地址：https://justpureh2o.cn/articles/12687/
+    原文地址：https://justpureh2o.cn/articles/16596/
 
 ---
 作为一名在导数领域摸爬滚打多年的高中牲，又怎能不知道高贵的**洛必达法则**呢？今天从高考角度出发，简要介绍洛必达法则作为**解选填题**的奇技淫巧的策略。
