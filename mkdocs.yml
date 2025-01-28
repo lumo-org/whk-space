@@ -11,7 +11,11 @@ nav:
     - README.md
     - CONTRIBUTING: CONTRIBUTING.md
   - 数列:
+    - sequence/index.md
     - 等差数列重要公式: sequence/AP-formula.md
+    - 等差-等比数列: sequence/A-GP.md
+  - 微分:
+    - differential/index.md
   - Main Site: https://lumo-org.github.io/
 
 # Theme.
