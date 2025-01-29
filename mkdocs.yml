@@ -10,6 +10,9 @@ nav:
   - README:
     - README.md
     - CONTRIBUTING: CONTRIBUTING.md
+  - 圆锥曲线:
+    - conic-section/index.md
+    - 曲线系: conic-section/system-of-curves.md
   - 数列:
     - sequence/index.md
     - 等差数列重要公式: sequence/AP-formula.md
