@@ -1,6 +1,7 @@
 !!! Note
     本文原作者：[Brilliant11001](https://www.cnblogs.com/Brilliant11001/p/-/Conic_section_1)
-    原文连接：[https://www.cnblogs.com/Brilliant11001/p/-/Conic_section_1]
+
+    原文连接：https://www.cnblogs.com/Brilliant11001/p/-/Conic_section_1
 
 # $\texttt{0x00}$ 写在前面
 
