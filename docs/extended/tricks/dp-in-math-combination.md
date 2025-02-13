@@ -94,4 +94,4 @@
 
 如果你学会了线性递推法，那么像这种中心缺刻网格你也能轻松切掉。递推过程如下图：
 
-![](https://cdn.luogu.com.cn/upload/image_hosting/tp2q3zkq.png)
+![](https://cdn.luogu.com.cn/upload/image_hosting/1mwd3253.png)
