@@ -17,6 +17,7 @@ nav:
     - conic-section/index.md
     - 曲线系: conic-section/system-of-curves.md
     - 从零开始掌握圆锥曲线大法——上: conic-section/conic_section_brilliant11001.md
+    - 圆锥曲线 常用二级结论附证明过程: conic-section/math-conic-curve-secondary-conclusions.md
   - 数列:
     - sequence/index.md
     - 等差数列重要公式: sequence/AP-formula.md
