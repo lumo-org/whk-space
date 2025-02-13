@@ -1,3 +1,8 @@
+!!! Note
+    本文原作者：[JustPureH2O](https://justpureh2o.cn/about/)
+
+    原文连接：https://justpureh2o.cn/articles/61430/
+
 # 圆锥曲线 常用二级结论附证明过程
 
 ## 前言
